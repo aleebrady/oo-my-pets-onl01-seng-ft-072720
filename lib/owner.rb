@@ -15,7 +15,7 @@ class Owner
   end
   
   def self.all 
-   return @@all = []
+   return @@all
   end
   
 end
