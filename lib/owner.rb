@@ -41,5 +41,9 @@ class Owner
     Cat.new(name, self)#creates new cat w/ name. self = owner object as arg for owner
   end
     
+    def buy_dog(name)
+      Dog.new(name, self) 
+    end
+    
   
 end
