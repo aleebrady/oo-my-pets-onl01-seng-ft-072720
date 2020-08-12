@@ -2,7 +2,7 @@ require 'pry'
 
 class Cat
   
-  attr_accessor :owner, :mood
+  attr_accessor :owner, :mood # initilizes with a mood
   attr_reader :name # cannot change cat's name
   
   def initialize(name, owner) #initilizes with name and owner 
