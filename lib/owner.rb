@@ -17,11 +17,13 @@ class Owner
   end
   
   def self.all 
-   return @@all #return all instances of owner that have been created 
+   @@all #return all instances of owner that have been created 
   end
   
   
   def self.count
-    @@all.count
+    @@all.count # or .length returns 
   end
+  
+  
 end
