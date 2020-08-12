@@ -30,7 +30,11 @@ class Owner
   end
   
   def cats 
-    Cat.all.select {|specific_cat| specific_cat.owner == self}
+    Cat.all.select {|specific_cat| specific_cat.owner == self}#returns cat(s) that belong to a owner
   end
+  
+  def dogs 
+    Dog.all.select {|specific_dog| specific_dog.owner == self} 
+    
   
 end
