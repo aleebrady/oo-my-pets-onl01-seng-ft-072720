@@ -7,7 +7,7 @@ class Owner
   def initialize(name) #initializes with a name
     @name = name
     @species = "human" #initializes with a species = human
-    @@all << self
+    @@all << self #return all instances of owner that have been created 
   end
   
   def say_species
@@ -18,4 +18,8 @@ class Owner
    return @@all #return all instances of owner that have been created 
   end
   
+  
+  def self.count
+    
+  end
 end
