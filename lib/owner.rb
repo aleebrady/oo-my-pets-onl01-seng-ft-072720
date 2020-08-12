@@ -1,6 +1,6 @@
 class Owner
   
-  def name(name) 
+  def name 
     
   end
   
