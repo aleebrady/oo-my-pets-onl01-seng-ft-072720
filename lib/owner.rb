@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   
   attr_reader :name, :species # cannot change owner or species w/ attr_reader
@@ -20,6 +22,6 @@ class Owner
   
   
   def self.count
-    
+    @@all.count
   end
 end
