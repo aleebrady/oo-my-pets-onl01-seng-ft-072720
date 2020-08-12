@@ -26,7 +26,7 @@ class Owner
   end
   
   def self.reset_all
-    @@all.clear
+    @@all.clear # resets or clears the array to []
   end
   
 end
