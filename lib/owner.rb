@@ -45,7 +45,7 @@ class Owner
       Dog.new(name, self)#creates new dog w/ name. self = owner object as arg for owner
     end
     
-    def walks_dog
+    def walk_dog
       self.dogs.map {|dog_walk| dog_walk.mood = "happy"}
     end
   
