@@ -25,6 +25,8 @@ class Owner
     @@all.count # or .length - returns the number of owners created 
   end
   
-  
+  def self.reset_all
+    
+  end
   
 end
