@@ -5,10 +5,13 @@ class Cat
   attr_accessor :owner, :mood # initilizes with a mood = ""
   attr_reader :name # cannot change cat's name
   
+  @@all = []
+  
   def initialize(name, owner) #initilizes with name and owner 
     @name = name 
     @owner = owner
-    @mood = "nervous"
+    @mood = "nervous" # initilizes with a mood = ""
+    @@all << self
   end
   
   
