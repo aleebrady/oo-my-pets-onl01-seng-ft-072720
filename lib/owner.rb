@@ -37,7 +37,9 @@ class Owner
     Dog.all.select {|specific_dog| specific_dog.owner == self}#returns cat(s) that belong to a owner
   end
   
-  
+  def buy_cat
+    
+  end
     
   
 end
