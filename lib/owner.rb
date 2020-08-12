@@ -50,7 +50,7 @@ class Owner
     end
     
     def feed_cats
-      
+      self.cats.each {|feed_cat| feed_cat.mood = "happy"}
     end
   
 end
