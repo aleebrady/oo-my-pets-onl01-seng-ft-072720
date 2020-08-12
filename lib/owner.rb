@@ -29,4 +29,8 @@ class Owner
     @@all.clear # resets or clears the array to []
   end
   
+  def cats 
+    
+  end
+  
 end
