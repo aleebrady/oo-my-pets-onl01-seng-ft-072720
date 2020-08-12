@@ -11,11 +11,11 @@ class Cat
     @name = name 
     @owner = owner
     @mood = "nervous" # initilizes with a mood = ""
-    @@all << self
+    @@all << self # adds all cats when created 
   end
   
   def self.all 
-    @@all
+    @@all #adds all cats
   end
   
   
