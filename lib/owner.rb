@@ -8,7 +8,7 @@ class Owner
   end
   
   def say_species
-    return "I am #{self.species}."
+    return "I am a #{self.species}."
   end
   
 end
