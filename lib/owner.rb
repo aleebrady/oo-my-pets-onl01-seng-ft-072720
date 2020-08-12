@@ -15,7 +15,7 @@ class Owner
   end
   
   def self.all 
-   return @@all
+   return @@all #return all instances of owner that have been created 
   end
   
 end
