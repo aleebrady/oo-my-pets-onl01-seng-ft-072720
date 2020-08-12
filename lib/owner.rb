@@ -50,7 +50,11 @@ class Owner
     end
     
     def feed_cats
-      self.cats.each {|feed_cat| feed_cat.mood = "happy"}
+      self.cats.each {|feed_cat| feed_cat.mood = "happy"}#when this method is called will change cat's mood to happy. each owner's cat will be called and mood will be changed.
+    end
+    
+    def sell_pets
+      
     end
   
 end
