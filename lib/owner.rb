@@ -22,8 +22,9 @@ class Owner
   
   
   def self.count
-    @@all.count # or .length returns 
+    @@all.count # or .length - returns the number of owners created 
   end
+  
   
   
 end
