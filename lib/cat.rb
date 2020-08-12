@@ -1,3 +1,13 @@
+require 'pry'
+
 class Cat
-  # code goes here
+  
+  attr_accessor :name, :Owner 
+  
+  def initialize(name)
+    @name = name 
+    @owner = owner
+  end
+  
+  
 end
