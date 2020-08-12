@@ -11,7 +11,7 @@ class Owner
     return "I am a #{self.species}." #can specify it's species when created of .self
   end
   
-  def self,all 
+  def self.all 
     
   end
   
