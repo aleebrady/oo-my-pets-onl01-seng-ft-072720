@@ -65,7 +65,7 @@ class Owner
       end
       
       def list_pets
-        return "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
+        return "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."#interpolates owner to the amount of their specific pets by using the dogs/cats methods above
       end
   
 end
