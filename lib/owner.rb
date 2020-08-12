@@ -46,7 +46,11 @@ class Owner
     end
     
     def walk_dogs
-      self.dogs.each {|dog_walk| dog_walk.mood = "happy"}
+      self.dogs.each {|dog_walk| dog_walk.mood = "happy"}#when this method is called will change dog's mood to happy. each owner's dog will be called and mood will be changed.
+    end
+    
+    def feed_cats
+      
     end
   
 end
