@@ -2,7 +2,7 @@ require 'pry'
 
 class Cat
   
-  attr_accessor :owner, :mood # initilizes with a mood = ""
+  attr_accessor :owner, :mood # initilizes with a mood = "" and owner 
   attr_reader :name # cannot change cat's name
   
   @@all = []
