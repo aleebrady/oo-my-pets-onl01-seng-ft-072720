@@ -42,8 +42,9 @@ class Owner
   end
     
     def buy_dog(name)
-      Dog.new(name, self) 
+      Dog.new(name, self))#creates new dog w/ name. self = owner object as arg for owner
     end
+    
     
   
 end
