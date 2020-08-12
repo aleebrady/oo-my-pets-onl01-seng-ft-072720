@@ -3,11 +3,12 @@ require 'pry'
 class Cat
   
   attr_accessor :owner 
-  attr_reader :name 
+  attr_reader :name # cannot change cat's name
   
   def initialize(name, owner) #initilizes with name and owner 
     @name = name 
     @owner = owner
+    @mood = 'nervous'
   end
   
   
