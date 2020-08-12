@@ -1,6 +1,6 @@
 class Owner
   
-  attr_reader :name, :species # cannot change owner or species
+  attr_reader :name, :species # cannot change owner or species w/ attr_reader
   
   @@all = []
   
